@@ -1,0 +1,16 @@
+$color: #353535;
+
+//bootstrap
+$link-hover-decoration: none;
+$table-striped-order: even;
+
+@import '~bootstrap/scss/bootstrap';
+
+@import "common";
+
+@import "header";
+@import "main";
+@import "sidebar";
+@import "content";
+@import "breadcrumbs";
+@import "table";

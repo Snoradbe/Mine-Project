@@ -1,0 +1,22 @@
+/* Main */
+.main {
+  position: relative;
+  display: flex;
+  min-height: calc(100vh - 50px);
+}
+
+.main__side {
+  position: relative;
+  padding-top: 10px;
+  box-shadow: 2px 0 5px #ccc;
+  z-index: 1;
+}
+
+.main__side-items {
+  position: sticky;
+  top: 0;
+}
+
+.main__content {
+  //
+}

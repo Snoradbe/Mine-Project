@@ -1,0 +1,22 @@
+/* Section Settings */
+.section-settings {
+	
+}
+
+.section-settings .card-table .icon {
+    font-size: .87rem;
+}
+
+.section-settings__container {
+    width: 780px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-settings .card:not(:first-child) {
+    margin-top: 1.25rem;
+}
+
+.section-settings .card__title {
+	color: #fff;
+}

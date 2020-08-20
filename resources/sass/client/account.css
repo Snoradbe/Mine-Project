@@ -1,0 +1,168 @@
+/* Section Account */
+.section-account {
+
+}
+
+.section-account__container {
+    width: 780px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-account__latest-online {
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.section-account__latest-date {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-account__info {
+
+}
+
+.section-account__info .card-table .icon {
+    font-size: .87rem;
+}
+
+.section-account__info .card:not(:first-child) {
+    margin-top: 1.25rem;
+}
+
+.section-account__header-stats {
+    color: #ffa700;
+}
+
+.section-account__ranking-place {
+    border-color: #ffa700;
+	font-family: 'SF UI Text', sans-serif;
+    font-size: .812rem;
+	font-weight: 600;
+    color: #fff;
+}
+
+.section-account__ranking-place:before {
+    background-color: #ffa700;
+}
+
+.section-account__ranking-place:hover {
+    box-shadow: none;
+}
+
+.section-account__ranking-place:hover:before {
+    background-color: #ffa700;
+}
+
+.section-account__online-progress {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #ffa700;
+}
+
+.section-account__online-progress .progress-line {
+    display: inline-block;
+    max-width: 80%;
+    height: 8px;
+    margin-right: 10px;
+}
+
+.section-account__online-progress .progress-line__filled {
+    background: linear-gradient(45deg, #ffa700, #ed8f03);
+    border-radius: 10px;
+}
+
+.section-account__online-percents {
+    font-size: .875rem;
+}
+
+.section-account__skin-buttons {
+    text-align: right;
+}
+
+.section-account__skin-button {
+    margin: 0 10px;
+}
+
+.section-account__skin-models {
+    //
+}
+
+.section-account__skin-model {
+    width: 50px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.section-account__perks {
+    /*margin: 40px 0;*/
+}
+
+/* Account Perk */
+.account-perk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    padding: 30px;
+    background: linear-gradient(45deg, #ffaf0d, #ffa700);
+    border-radius: 5px;
+}
+
+.account-perk_empty {
+    background: transparent;
+    border: 3px solid #ffa700;
+}
+
+.account-perk__info {
+    display: flex;
+    align-items: center;
+}
+
+.account-perk__info-content {
+    color: #fff;
+}
+
+.account-perk__icon {
+    height: 100%;
+    margin-right: 15px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.account-perk__icon_staff {
+    width: 64px;
+    height: 64px;
+}
+
+.account-perk_empty .account-perk__icon {
+    color: #ffa700;
+}
+
+.account-perk__name {
+    font-size: 1rem;
+	font-weight: 700;
+}
+
+/*.account-perk_empty .account-perk__name {
+    font-size: 1.1rem;
+}*/
+
+.account-perk__expires {
+    font-size: .75rem;
+	font-weight: 700;
+    text-transform: uppercase;
+}
+
+.account-perk__buttons {
+
+}
+
+.account-perk__buttons .btn {
+    border-width: 2px;
+	font-size: .8125rem;
+	font-weight: 600;
+}

@@ -1,0 +1,43 @@
+/* Breadcrumbs */
+.breadcrumbs {
+  background-color: #fff;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.breadcrumbs__items {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 15px 30px;
+}
+
+.breadcrumbs__item {
+  padding-left: .8em;
+  text-decoration: none;
+  color: $color;
+  font-size: .9rem;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .8em;
+    border-top: .3em solid transparent;
+    border-right: 0;
+    border-bottom: .3em solid transparent;
+    border-left: .3em solid;
+    font-size: 1rem;
+  }
+
+  &:last-child {
+    opacity: .6;
+
+    &:after {
+      content: none;
+    }
+  }
+}

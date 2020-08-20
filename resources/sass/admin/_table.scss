@@ -1,0 +1,17 @@
+.table {
+    th,
+    td {
+        border-top: 0;
+        border-bottom: $table-border-width solid $table-border-color;
+    }
+
+    tr:last-child {
+        td {
+            border-bottom: 0;
+        }
+    }
+}
+
+table.align-middle th, table.align-middle td {
+    vertical-align: middle;
+}
